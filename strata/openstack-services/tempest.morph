@@ -3,5 +3,5 @@ kind: chunk
 build-system: python-distutils
 post-install-commands:
 - mkdir -p "$DESTDIR"/etc/tempest
-- cp -R * "DEDSTDIR"/etc/tempest
+- cp -R * "$DESTDIR"/etc/tempest
 - cp .testr.conf "$DESTDIR"/etc/tempest
