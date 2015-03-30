@@ -25,6 +25,14 @@ chunks:
   ref: 62d732277de5cf663172eafe6d3a6c149a9cf814
   unpetrify-ref: master
   build-depends: []
+- name: check
+  repo: upstream:check
+  ref: 8c872aca6675e95fa47e7514e28fbdf25fce6170
+  unpetrify-ref: 0.9.8
+- name: cppunit
+  repo: upstream:cppunit
+  ref: 8133cf2b977f013216f0a41b6fcb740410d83926
+  unpetrify-ref: 1.13.2
 - name: webob
   repo: upstream:python-packages/webob
   ref: ae0ac90f22f9e1ff351e445f92330efd89195f51
@@ -315,6 +323,8 @@ chunks:
   build-depends:
   - extras
   - testtools
+  - check
+  - cppunit
 - name: testrepository
   repo: upstream:python-packages/testrepository
   ref: 6419a3dcaabaf09eaf438c6d8d85c90eba7a2b91
