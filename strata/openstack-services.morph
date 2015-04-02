@@ -848,4 +848,4 @@ chunks:
   morph: strata/openstack-services/tempest.morph
   repo: upstream:openstack/tempest.git
   ref: acba5510785258949679304f3e1a55e53b851962
-  unpetrify-ref: 2
+  unpetrify-ref: "2"
